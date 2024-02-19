@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a3a4943-f241-44a2-b1ed-39fb60a57ffc" name="Changes" comment="RMI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RMI/CalculationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RMI/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RMI/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RMI/SimpleRMIInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/RMI/ClientFX.fxml" afterDir="false" />
+    <list default="true" id="8a3a4943-f241-44a2-b1ed-39fb60a57ffc" name="Changes" comment="RMI console">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RMI/ServerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/RMI/ServerFX.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/imageforwork.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RMI/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RMI/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RMI/SimpleRMIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RMI/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RMI/SimpleRMIInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RMI/SimpleRMIInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/rmi_controller/java_rmi/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rmi_controller/java_rmi/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/RMI/ClientFX.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/RMI/ClientFX.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -52,7 +53,9 @@
   "keyToString": {
     "Application.Client.executor": "Run",
     "Application.HelloApplication.executor": "Run",
+    "Application.MyJavaFXApp.executor": "Run",
     "Application.Server.executor": "Run",
+    "Application.SimpleRMIClient.executor": "Run",
     "Application.Unnamed.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,17 +64,19 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dmitr/IdeaProjects/Java_RMI/target/classes/rmi_controller/RMI",
+    "last_opened_file_path": "C:/Users/dmitr/IdeaProjects/Java_RMI/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dmitr\IdeaProjects\Java_RMI\src\main\resources" />
       <recent name="C:\Users\dmitr\IdeaProjects\Java_RMI\target\classes\rmi_controller\RMI" />
     </key>
   </component>
@@ -94,12 +99,26 @@
       <updated>1708207416726</updated>
       <workItem from="1708207417837" duration="3164000" />
       <workItem from="1708249698913" duration="1318000" />
-      <workItem from="1708271800691" duration="1288000" />
+      <workItem from="1708271800691" duration="6603000" />
+      <workItem from="1708293182951" duration="5994000" />
     </task>
+    <task id="LOCAL-00001" summary="RMI console">
+      <option name="closed" value="true" />
+      <created>1708278105404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708278105405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RMI console" />
+    <option name="LAST_COMMIT_MESSAGE" value="RMI console" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_RMI$Server.ic" NAME="Server Coverage Results" MODIFIED="1708212219317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
